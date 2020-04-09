@@ -1,0 +1,113 @@
+[33mcommit 865d91fdb8c8fbd162f5399ee34baedc235bd033[m[33m ([m[1;36mHEAD -> [m[1;32mma_new_branche[m[33m, [m[1;31morigin/ma_new_branche[m[33m)[m
+Author: minmi78 <meriem.dhiab@edu.ece.fr>
+Date:   Thu Apr 9 18:44:39 2020 +0200
+
+    meriem commit
+
+[1mdiff --git a/git.html b/git.html[m
+[1mindex f8fda9c..13dae56 100644[m
+[1m--- a/git.html[m
+[1m+++ b/git.html[m
+[36m@@ -43,6 +43,7 @@[m
+         </div>[m
+         <div>[m
+             <h1>Je m'appelle Téo</h1>[m
+[32m+[m[32m            <h1>Et moi c'est Meriem</h1>[m
+         </div>[m
+         <footer class="page-footer">   [m
+             <div class="container">    [m
+
+[33mcommit 98eac9bf8a3586f953770edd63bcf3f52d678847[m[33m ([m[1;31morigin/niveau1[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Téo Rodriguez Nello <teo.rodriguez-nello@edu.ece.fr>
+Date:   Tue Apr 7 11:08:20 2020 +0200
+
+    ajout d'un titre
+
+[1mdiff --git a/git.html b/git.html[m
+[1mindex 41204b4..f8fda9c 100644[m
+[1m--- a/git.html[m
+[1m+++ b/git.html[m
+[36m@@ -41,6 +41,9 @@[m
+             <p class="text-center ">L'équipe du développement web</p>[m
+             <br>[m
+         </div>[m
+[32m+[m[32m        <div>[m
+[32m+[m[32m            <h1>Je m'appelle Téo</h1>[m
+[32m+[m[32m        </div>[m
+         <footer class="page-footer">   [m
+             <div class="container">    [m
+                 <div class="row">       [m
+
+[33mcommit 26ff37c01cb2491465eeb013b1c0747f4e3e5f7b[m
+Author: Téo Rodriguez Nello <teo.rodriguez-nello@edu.ece.fr>
+Date:   Tue Apr 7 10:35:19 2020 +0200
+
+    premier essai
+
+[1mdiff --git a/git.html b/git.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..41204b4[m
+[1m--- /dev/null[m
+[1m+++ b/git.html[m
+[36m@@ -0,0 +1,60 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m [m
+[32m+[m[32m<html>[m[41m [m
+[32m+[m[32m    <head>[m[41m  [m
+[32m+[m[32m        <title>A propos</title>[m[41m  [m
+[32m+[m[32m        <meta charset="utf-8">[m[41m  [m
+[32m+[m[32m        <meta name="viewport" content="width=device-width, initial-scale=1">[m[41m      [m
+[32m+[m[32m        <link rel="stylesheet"[m[41m                        [m
+[32m+[m[32m            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">[m[41m            [m
+[32m+[m[32m        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>[m[41m  [m
+[32m+[m[32m        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>[m
+[32m+[m[32m        <link rel="stylesheet" type="text/css" href="style.css">[m
+[32m+[m[32m        <script type="text/javascript">[m[41m      [m
+[32m+[m[32m            $(document).ready(function(){[m[41m          [m
+[32m+[m[32m            $('.header').height($(window).height());[m[41m      [m
+[32m+[m[32m            });[m[41m [m
+[32m+[m[32m        </script>[m
+[32m+[m[32m    </head>[m[41m [m
+[32m+[m[32m    <body>[m[41m [m
+[32m+[m[32m        <nav class="navbar navbar-expand-md">[m[41m      [m
+[32m+[m[32m            <a class="navbar-brand" href="#">WikiGame</a>[m[41m         [m
+[32m+[m[32m            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">[m[41m      [m
+[32m+[m[32m                <span class="navbar-toggler-icon"></span>[m[41m        [m
+[32m+[m[32m            </button>[m[41m        [m
+[32m+[m[32m            <div class="collapse navbar-collapse" id="main-navigation">[m[41m      [m
+[32m+[m[32m                <ul class="navbar-nav">[m[41m             [m
+[32m+[m[32m                    <li class="nav-item"><a class="nav-link" href="TP7modifié.html">Accueil</a></li>[m[41m        [m
+[32m+[m[32m                    <li class="nav-item"><a class="nav-link" href="TP7modifié_1.html">A propos</a></li>[m[41m         [m
+[32m+[m[32m                    <li class="nav-item"><a class="nav-link" href="TP7modifié.html#contact">Contact</a></li>[m[41m    [m
+[32m+[m[32m                </ul>[m[41m       [m
+[32m+[m[32m            </div>[m[41m [m
+[32m+[m[32m        </nav>[m
+[32m+[m[32m        <div id="main" class="container-fluid">[m[41m [m
+[32m+[m[32m            <h1 id="title">1ère génération de console :</h1>[m
+[32m+[m[32m            <p class="text-center ">La première console créée fut l’Odyssey de Magnavox. Elle permettait un jeu assez basique via l’utilisation de calques à apposer sur son écran de télévision. Vous pouviez alors jouer à différents jeux, à la manière d’une console à cartouches interchangeables. Ralph Baer fut l’ingénieux inventeur de cette machine. Elle marqua le début de l’ère des consoles de salon et donc de la première génération de consoles tout simplement.</p>[m
+[32m+[m[32m            <a href="console1.jpg"><img class="img-thumbnail" id="image" src="console1.jpg " alt="Première console"/></a>[m
+[32m+[m[32m            <br>[m
+[32m+[m[32m            <h1 id="title">2ème génération de console :</h1>[m
+[32m+[m[32m            <img style ="margin-left: 500px" src="construction.jpg" alt="En construction"/>[m
+[32m+[m[32m            <p class="text-center ">Nous nous excusons pour la gêne occasioné nous ne sommes pas en mesure pour l'instant de vous offrir cette page web entière. Nous élaborons en ce moment même le reste de cet article qui devrait arriver incéssament sous peut. Bonne continuation!</p>[m
+[32m+[m[32m            <br>[m[41m [m
+[32m+[m[32m            <p class="text-center ">L'équipe du développement web</p>[m
+[32m+[m[32m            <br>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <footer class="page-footer">[m[41m   [m
+[32m+[m[32m            <div class="container">[m[41m    [m
+[32m+[m[32m                <div class="row">[m[41m       [m
+[32m+[m[32m                    <div class="col-lg-8 col-md-8 col-sm-12">[m[41m       [m
+[32m+[m[32m                        <h6 class="text-uppercase font-weight-bold">Information additionnelle</h6>[m[41m       [m
+[32m+[m[32m                        <p>Nous sommes des gamers dans l'âme et voudrions mettre en avant l'histoire de cette incroyable technologie.</p>[m[41m       [m
+[32m+[m[32m                        <p>Nous sommes à la recherche de nouveaux bénévoles pour améliorer notre contenu ainsi que notre rendu pour assurer à l'utilisateur la meilleure expérience possible.</p>[m[41m    [m
+[32m+[m[32m                    </div>[m[41m   [m
+[32m+[m[32m                    <div class="col-lg-4 col-md-4 col-sm-12">[m[41m       [m
+[32m+[m[32m                        <h6 class="text-uppercase font-weight-bold">Contact</h6>[m[41m       [m
+[32m+[m[32m                        <p>37, quai de Grenelle, 75015 Paris, France <br>teo.rodriguez-nello@edu.ece.fr<br>paul.le-strat@edu.ece.fr <br>+33 06 86 72 05 10<br>+33 06 23 02 95 72</p>[m[41m     [m
+[32m+[m[32m                    </div>[m[41m   [m
+[32m+[m[32m                </div>[m[41m   [m
+[32m+[m[32m                <div class="footer-copyright text-center">&copy; 2019 Copyright | Droit d'auteur: teo.rodriguez-nello@edu.ece.fr & paul.le-strat@edu.ece.fr</div>[m[41m [m
+[32m+[m[32m            </footer>[m
+[32m+[m[32m    </body>[m[41m [m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
